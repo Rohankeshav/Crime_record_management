@@ -1,0 +1,54 @@
+*{
+    background-color: black;
+}
+h3{
+    color:yellow;
+    text-align: left;
+    border-right:  2px  solid yellow;
+    border-top:  2px solid  yellow;
+    border-left :  2px solid yellow;
+    border-bottom :  2px solid yellow;
+    border-radius: 10px;
+    margin-left: 1640px;
+    margin-top: 0px;
+}
+h3:hover{
+    color: black;
+    background-color: antiquewhite;
+    text-decoration:none;
+}
+
+table{
+    border: 3px solid yellow;
+    margin-top: 200px;
+    color: yellow;
+    width: 90%;
+    border-collapse: collapse;
+}
+th{
+    color:aliceblue;
+    border: 2px solid yellow;
+    width: fit-content;
+    height: 70px;
+    font-weight:800;
+    font-size: 20px;
+
+}
+tr:nth-child(odd){
+    background-color: rgb(158, 157, 157);
+}
+tr:hover{
+    color:white;
+    background-color: #09f711;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 300ms  ease-in;
+}
+
+td{
+    vertical-align: bottom;
+    height: 45px;
+    border: 3px solid yellow;
+    font-size: 18px;
+}
+
